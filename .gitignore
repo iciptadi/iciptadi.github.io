@@ -1,0 +1,28 @@
+# Logs
+portofolio/logs
+portofolio/*.log
+portofolio/npm-debug.log*
+portofolio/yarn-debug.log*
+portofolio/yarn-error.log*
+portofolio/pnpm-debug.log*
+portofolio/lerna-debug.log*
+
+portofolio/node_modules
+portofolio/.DS_Store
+portofolio/dist
+portofolio/dist-ssr
+portofolio/coverage
+portofolio/*.local
+
+portofolio//cypress/videos/
+portofolio//cypress/screenshots/
+
+# Editor directories and files
+portofolio/.vscode/*
+portofolio/!.vscode/extensions.json
+portofolio/.idea
+portofolio/*.suo
+portofolio/*.ntvs*
+portofolio/*.njsproj
+portofolio/*.sln
+portofolio/*.sw?
