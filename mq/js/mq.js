@@ -16,9 +16,10 @@ $(document).ready(function () {
 																			<option value="">string</option>
 																			<option value="datepicker maskdate">datepicker maskdate</option>
 																			<option value="number">number</option>
+																			<option value="select">select</option>
 																	</select>
 															</td>
-															<td><input type="text" class="form-control" id="isParamName${rowIdx}"></td>
+															<td><textarea class="form-control" id="isParamName${rowIdx}"></textarea></td>
 															<td>
 																	<button class="btn btn-danger remove" type="button">Remove</button>
 															</td>
