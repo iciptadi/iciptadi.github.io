@@ -9,6 +9,8 @@ $(document).ready(function () {
 															<td>
 																	<select class="form-control type" id="isType${rowIdx}">
 																			<option value="text">text</option>
+																			<option value="select">select</option>
+																			<option value="number">number</option>
 																	</select>
 															</td>
 															<td>
@@ -16,7 +18,6 @@ $(document).ready(function () {
 																			<option value="">string</option>
 																			<option value="datepicker maskdate">datepicker maskdate</option>
 																			<option value="number">number</option>
-																			<option value="select">select</option>
 																	</select>
 															</td>
 															<td><textarea class="form-control" id="isParamName${rowIdx}"></textarea></td>
